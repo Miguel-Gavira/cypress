@@ -1,0 +1,16 @@
+<article>
+  <div>
+    <label for="sumando1">Introduce un valor</label>
+    <input id="sumando1" [(ngModel)]="sumando1" type="number" />
+  </div>
+  <span> + </span>
+  <div>
+    <label for="sumando2">Introduce un valor</label>
+    <input id="sumando2" [(ngModel)]="sumando2" type="number" />
+  </div>
+  <span> = </span>
+  <div>
+    <span>resultado</span>
+    <span id="resultado">{{ resultado() }}</span>
+  </div>
+</article>
