@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./suma.component.scss'],
 })
 export class SumaComponent implements OnInit {
-  sumando1: number;
-  sumando2: number;
+  sumando1: number = 0
+  sumando2: number = 0
 
   constructor() {}
 

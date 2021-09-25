@@ -35,7 +35,7 @@ describe('SumaComponent', () => {
     expect(actualValue).toEqual(expectedValue);
   });
 
-  it('La suma de 1 más 2 es 4', () => {
+  xit('La suma de 1 más 2 es 4', () => {
     // Set up
     component.sumando1 = 1;
     component.sumando2 = 2;
