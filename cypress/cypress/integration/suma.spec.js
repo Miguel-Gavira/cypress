@@ -8,9 +8,12 @@ describe('componente suma', () => {
   });
   it('sumo 1 más 2 y veo 3', () => {
     // cy.wait('@voucher', { timeout: 100_000 });
+    // cy.get('.btn-primary-outline').contains('buscar').click();
+
     // Set up
-    cy.get('#sumando1').type(1);
+    cy.get('[data-cy=sumando1]').type(1);
     cy.get('#sumando2').type(2);
+    cy.get('.name').should('contain', 'nuevo')
 
     // Act
     // Assert
