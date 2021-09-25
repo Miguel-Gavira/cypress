@@ -13,7 +13,6 @@ describe('componente suma', () => {
     // Set up
     cy.get('[data-cy=sumando1]').type(1);
     cy.get('#sumando2').type(2);
-    cy.get('.name').should('contain', 'nuevo')
 
     // Act
     // Assert
